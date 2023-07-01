@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".officerReg">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:background="@color/cardview_shadow_start_color"
+        tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/OfficerRegistration"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/design_default_color_on_primary"
+            android:gravity="center"
+            android:text="Officer Registration"
+            android:textSize="25sp"
+            android:textStyle="bold"
+            tools:ignore="MissingConstraints" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/FullName"
+                android:layout_width="20dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:hint="Full Name"
+                android:textSize="18sp"
+                android:minHeight="48dp"
+                android:layout_marginTop="100dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold"
+                tools:ignore="Autofill,TextFields" />
+
+            <EditText
+                android:id="@+id/Email"
+                android:layout_width="20dp"
+                android:layout_height="75dp"
+                android:layout_weight="1"
+                android:hint="Email"
+                android:textSize="18sp"
+                android:minHeight="48dp"
+                android:layout_marginTop="100dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/StrongPassword"
+                android:layout_width="20dp"
+                android:layout_height="50dp"
+                android:layout_weight="1"
+                android:hint="Strong Password"
+                android:inputType="textPassword"
+                android:layout_marginTop="20dp"
+                android:textSize="18sp"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/ConfirmPassword"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Confirm Password"
+                android:inputType="textPassword"
+                android:minHeight="48dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/black"
+                android:textSize="18sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/ContactNo"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Contact No"
+                android:textSize="18sp"
+                android:minHeight="48dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+            <EditText
+                android:id="@+id/DateOfJoining"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Date Of Joining"
+                android:textSize="18sp"
+                android:minHeight="48dp"
+                android:layout_marginTop="20dp"
+                android:textColorHint="@color/black"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="20dp">
+
+            <EditText
+                android:id="@+id/Mandal"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="Mandal"
+                android:textSize="18sp"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+            <EditText
+                android:id="@+id/District"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:hint="District"
+                android:textSize="18sp"
+                android:minHeight="48dp"
+                android:textColorHint="@color/black"
+                android:layout_marginTop="20dp"
+                android:textStyle="bold"
+                tools:ignore="MissingConstraints" />
+
+        </LinearLayout>
+
+
+        <Button
+            android:id="@+id/submit"
+            android:layout_width="209dp"
+            android:layout_height="105dp"
+            android:layout_gravity="center_horizontal"
+            android:text="Submit"
+            android:textColor="@color/black"
+            android:layout_marginTop="50dp"
+            android:textSize="20dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

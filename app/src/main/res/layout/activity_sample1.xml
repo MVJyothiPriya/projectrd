@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:drawableLeft="@drawable/baseline_info_24"
+        android:gravity="left"
+        android:text="About Us"
+        android:textColor="#FF0000"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:id="@+id/textView3" />
+
+
+    <ImageView
+        android:layout_width="504dp"
+        android:layout_height="303dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/about1" />
+    <TextView
+        android:layout_width="366dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+
+        android:gravity="left"
+        android:text="Our approach"
+        android:textColor="#FF0000"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+
+    <TextView
+        android:layout_width="350dp"
+        android:layout_height="61dp"
+        android:lineSpacingExtra="4dp"
+        android:text="We created this platform to rectify the problems that people face in the village of various communities."
+        />
+
+    <ImageView
+        android:layout_width="395dp"
+        android:layout_height="149dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp"
+        android:src="@drawable/img_1" />
+
+    <TextView
+        android:layout_width="91dp"
+        android:layout_height="97dp"
+        android:layout_gravity="center"
+        android:lineSpacingExtra="4dp"
+        android:text="About Us" />
+
+
+</LinearLayout>

@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_marginTop="30dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="141dp"
+        android:text="Officer Desk"
+        android:textSize="40dp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/contact_icon"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="5dp"
+        android:contentDescription="Contact Symbol"
+        android:onClick="openContactActivity"
+        android:src="@drawable/baseline_contact_page_24" />
+
+    <TextView
+        android:id="@+id/contactIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Department Details"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/feedback_icon"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="Feedback Symbol"
+        android:onClick="openFeedbackActivity"
+        android:src="@drawable/baseline_feedback_24" />
+
+    <TextView
+        android:id="@+id/feedbackIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Feedback"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:id="@+id/complaint_icon"
+        android:layout_width="400dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="40dp"
+        android:contentDescription="Complaints Symbol"
+        android:onClick="openComplaintActivity"
+        android:src="@drawable/baseline_mark_email_unread_24" />
+
+    <TextView
+        android:id="@+id/complaintIcon"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="View Complaints"
+        android:textColor="@color/black"
+        android:textSize="20dp" />
+
+</LinearLayout>
